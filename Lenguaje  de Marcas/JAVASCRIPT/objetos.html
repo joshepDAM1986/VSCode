@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="inicio()">
+    <main>
+        <h1>Probando objetos con JS</h1>
+        <p id="salida" style="background-color: lightgrey;">
+
+        </p>
+        <script>
+            var miObjeto = {
+                nombre: "Luis",
+                Apellidos: "Pérez",
+                Edad: 23
+            };
+
+            class Forma {
+                tipo = "geométrica";
+                color = "verde";
+
+                constructor(tipo, color) {
+                    this.tipo = tipo;
+                    this.color = color;
+                }
+            }
+
+            Forma.prototype.toString = function () {
+                return `<span style='color:
+                ${this.color}'>${this.tipo}</span>`;
+            }
+
+            function inicio() {
+                forma1 = new Forma(" cuadrado", "#fff000");
+                forma2 = new Forma(" pentágono", "cyan");
+
+                const elemento = document.getElementById("salida");
+                elemento.innerHTML = elemento.innerHTML + "El nombre es " + miObjeto.nombre;
+
+                elemento.insertAdjacentHTML("beforeend", "<span style='color:" + forma1.color + "'>" + forma1.tipo + "</span>" + "<br>");
+                elemento.insertAdjacentHTML("beforeend", "<span style='color:" + forma2.color + "'>" + forma2.tipo + "</span>");
+            }
+        </script>
+    </main>
+</body>
+
+</html>

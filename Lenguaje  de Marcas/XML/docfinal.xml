@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prueba xmlns:b1="doc1.xml"
+            xmlns:b2="doc2.xml">
+    <b1:banco>
+       <b1:color>marron</b1:color>
+       <b1:asientos>3</b1:asientos>
+    </b1:banco>
+    <b2:banco>
+      <b2:nombre>Banco X</b2:nombre>
+       <b2:direccion>calle Y</b2:direccion>
+      <b2:presidente>Mr. x</b2:presidente>
+       <b2:clientes> 154000000</b2:clientes>
+    </b2:banco>
+</prueba>

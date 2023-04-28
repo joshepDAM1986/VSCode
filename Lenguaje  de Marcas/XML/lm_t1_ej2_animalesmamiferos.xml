@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UFT-8"?> 
+	<animalMamifero> 
+		<animal> 
+			<nombre>leon</nombre> 
+			<alimentacion>carnivoro</alimentacion> 
+		</animal> 
+		<animal> 
+			<nombre>elefante</nombre> 
+			<alimentacion>herviboro</alimentacion> 
+		</animal> 
+		<animal> 
+			<nombre>cerdo</nombre> 
+			<alimentacion>omnivoro</alimentacion> 
+		</animal> 
+	</animalMamifero>

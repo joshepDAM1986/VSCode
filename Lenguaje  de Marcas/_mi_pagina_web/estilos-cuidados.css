@@ -1,0 +1,97 @@
+/*Main*/
+
+.cuerpo {
+  width: 100%;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+  text-align: justify;
+}
+
+.cuerpo span {
+  font-weight: bold;
+  color: black;
+}
+
+.cuerpo img {
+  float: left;
+  max-width: 200px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.cuerpo h2 {
+  margin: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  list-style: circle;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.cuerpo p {
+  margin: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+#texto-oculto {
+  display: none;
+}
+
+#boton-mostrar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: darkgrey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+#boton-mostrar:hover {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background-color: #333333;
+}
+
+.video {
+  width: 100%;
+  margin-bottom: 15px;
+  background-image: url(img/fondo3.jpg);
+  justify-content: center;
+}
+
+.video iframe {
+  width: 50%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+  transform: translate(50%);
+}
+
+@media only screen and (max-width: 768px) {
+  .video {
+    width: 100%;
+  }
+
+  .video iframe {
+    width: 100%;
+    transform: translate(0%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cuerpo p {
+    font-size: 15px;
+  }
+}

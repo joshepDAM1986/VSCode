@@ -1,0 +1,20 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE bdcorreo [
+    <!ELEMENT bdcorreo (email)+>
+    <!ELEMENT email (receptor,asunto,cuerpo)>
+    <!ELEMENT receptor (#PCDATA)>
+    <!ELEMENT asunto (#PCDATA)>
+    <!ELEMENT cuerpo (#PCDATA)>
+]>
+<bdcorreo>
+    <email>
+        <receptor>r1@librolm.com</receptor>
+        <asunto>Cumpleaños</asunto>
+        <cuerpo>Desearte un feliz cumpeaños</cuerpo>
+    </email>
+    <email>
+        <receptor>r2@librolm.com</receptor>
+        <asunto>Dia libre</asunto>
+        <cuerpo>Estimado señor...</cuerpo>
+    </email>
+</bdcorreo>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreria [
+    <!ELEMENT libreria (libro)+>
+    
+    <!ELEMENT libro (titulo,autor+,ISBN,paginas,precio)>
+    
+    <!ATTLIST libro
+
+tipo (fisico|online) #REQUIRED>
+
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT ISBN (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+<libreria>
+    <libro tipo="fisico">
+        <titulo>Lenguaje de marcas</titulo>
+        <autor>Autor1</autor>
+        <autor>Autor2</autor>
+        <ISBN></ISBN>
+        <paginas>158</paginas>
+        <precio>15</precio>
+    </libro>
+    <libro tipo="online">
+        <titulo>XML</titulo>
+        <autor>Autor1</autor>
+        <ISBN></ISBN>
+        <paginas>278</paginas>
+        <precio>25</precio>
+    </libro>
+</libreria>

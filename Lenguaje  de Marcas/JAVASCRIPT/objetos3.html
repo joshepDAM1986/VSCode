@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Forma.js"></script> 
+    <script>
+
+        function inicio() 
+        {
+            cu = new Cuadrado("cuadrado", "red",10);
+            ci = new Circulo("circulo", "cyan",1,2);
+            tr = new Triangulo("triángulo", "yellow",2,5);
+
+            const elemento = document.getElementById("salida");
+            elemento.innerHTML= cu.toString() + "<br>" + ci.toString() + "<br>" + tr.toString();
+
+        }
+
+    </script>
+</head>
+<body onload="inicio()">
+   <main>
+        <h1>Probando objetos con JS</h1>
+        <p id="salida">
+        </p>
+   </main> 
+</body>
+</html>

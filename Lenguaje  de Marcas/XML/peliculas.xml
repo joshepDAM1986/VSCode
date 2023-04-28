@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cine>
+    <pelicula> <!-- Titulo -->
+        <director> Señor X </director> <!-- Subtitulo -->
+        <duraci6n> 60 </duraci6n>
+        <titulo> Las aventuras de los SGML </titulo>
+        <stock/> <!-- Autocierre de subtitulo -->
+    </pelicula>/>
+    <pelicula>
+        <director nacionalidad="USA"> Peter Jackson </director> <!-- Subtitulo con atributo -->
+        <duraci6n> 60 </duraci6n>
+        <titulo> El señor de los anillos </titulo>
+    </pelicula>
+</cine>

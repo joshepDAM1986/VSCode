@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Frutas</title>
+    <style>
+      .navegacion {
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+        background-color: rgb(0, 255, 136);
+      }
+
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 5em;
+        list-style: none;
+      }
+
+      .links li {
+        padding: 0.5em 0.5em;
+        text-align: center;
+        color: #ffffff;
+        font: bold 13px Arial, sans-serif;
+      }
+
+      .links li:hover {
+        background-image: url(img/fondo4.jpg);
+        transition-duration: 0.5s;
+      }
+
+      .links a {
+        text-decoration: none;
+      }
+
+      label {
+        background-color: rgba(255, 0, 0, 0.47);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+        border: 1px solid black;
+        color: #ffffff;
+        font-weight: bold;
+      }
+
+      input {
+        background-color: rgba(255, 0, 0, 0.47);
+        color: #ffffff;
+        font-weight: bold;
+      }
+
+      button {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <nav class="navegacion">
+        <ul class="links">
+          <li><a href="index.html" target="_self">Tablas</a></li>
+          <li><a href="frutas.html" target="_self">Frutas</a></li>
+          <li><a href="datos.html" target="_self">Datos</a></li>
+          <li><a href="elementos.html" target="_self">Cuadrados</a></li>
+        </ul>
+      </nav>
+      <label for="fruta">Nombre de la fruta:</label>
+      <input type="text" id="fruta" name="fruta" />
+      <button type="button" id="agregar">Añadir</button>
+    </form>
+    <ul id="lista-frutas"></ul>
+    <script>
+      const frutas = [];
+      function agregarFruta() {
+        const nombreFruta = document.getElementById("fruta").value;
+        if (nombreFruta == "") {
+        } else {
+          frutas.push(nombreFruta);
+        }
+        actualizarListaFrutas();
+      }
+      function actualizarListaFrutas() {
+        const listaFrutas = document.getElementById("lista-frutas");
+        listaFrutas.innerHTML = "";
+        frutas.forEach(function (fruta) {
+          const itemLista = document.createElement("li");
+          itemLista.innerText = fruta;
+          listaFrutas.appendChild(itemLista);
+        });
+      }
+      const botonAgregar = document.getElementById("agregar");
+      botonAgregar.addEventListener("click", agregarFruta);
+    </script>
+  </body>
+</html>

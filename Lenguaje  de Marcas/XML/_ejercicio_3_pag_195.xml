@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calificaciones [
+<!ELEMENT calificaciones (alumno)+>
+    
+    <!ELEMENT alumno (datos+,materia+)>
+    <!ELEMENT datos (nombre,apellidos)>
+    <!ELEMENT materia (oace,eee,xml)>
+    <!ELEMENT oace (cuestionario,tareas)>
+    <!ELEMENT eee (cuestionario,tareas)>
+    <!ELEMENT xml (cuestionario,tareas)>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT cuestionario (#PCDATA)>
+    <!ELEMENT tareas (#PCDATA)>
+]>  
+
+<calificaciones>
+    <alumno>
+        <datos>
+            <nombre>Felipe</nombre>
+            <apellidos>Pascal</apellidos>
+        </datos>
+        <materia>
+            <oace>
+                <cuestionario>4</cuestionario>
+                <tareas>8</tareas>
+            </oace>
+            <eee>
+                <cuestionario>7</cuestionario>
+                <tareas>6</tareas>
+            </eee>
+            <xml>
+                <cuestionario>8</cuestionario>
+                <tareas>6</tareas>
+            </xml>
+        </materia>
+    </alumno>
+    <alumno>
+        <datos>
+            <nombre>María</nombre>
+            <apellidos>García</apellidos>
+        </datos>
+        <materia>
+            <oace>
+                <cuestionario>9</cuestionario>
+                <tareas>2</tareas>
+            </oace>
+            <eee>
+                <cuestionario>9</cuestionario>
+                <tareas>6</tareas>
+            </eee>
+            <xml>
+                <cuestionario>7</cuestionario>
+                <tareas>7</tareas>
+            </xml>
+        </materia>
+    </alumno>
+</calificaciones>
