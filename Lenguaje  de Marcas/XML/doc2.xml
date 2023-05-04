@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
- <banco>
-    <nombre>Banco X</nombre>
-    <dirección>calle Y</direccion>
-    <presidente>Mr. </presidente>
-    <clientes> 154000000</clientes>
-</banco>

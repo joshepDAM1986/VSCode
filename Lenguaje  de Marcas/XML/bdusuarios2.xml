@@ -1,7 +1,0 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<usuario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="bdusuarios2.xsd">
-    <nombre>Francisco J. Garcia</nombre>
-    <email>user2@librolm.com</email>
-    <fechaNac>09-01-1986</fechaNac>
-</usuario>
