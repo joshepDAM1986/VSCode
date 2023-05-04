@@ -1,0 +1,15 @@
+<?xml versio="1.0" encoding="UFT-8"?>
+    <examenes>
+        <materia>
+            <nombre>Lenguaje de Marcas</nombre>
+            <aprobados>15</aprobados>
+            <suspensos>10</suspensos>
+            <unidades>4</unidades>
+        </materia>
+        <materia>
+            <nombre>sistemas Operativos</nombre>
+            <aprobados>S</aprobados>
+            <suspensos>20</suspensos>
+            <unidades>5</unidades>
+        </materia>
+    <examenes>

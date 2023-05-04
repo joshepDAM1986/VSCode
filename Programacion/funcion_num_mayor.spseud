@@ -1,0 +1,13 @@
+funcion nummayor (float n1, float n2):float
+
+    si (n1<=n2):
+        retornar n1
+    sino
+        retornar n2
+
+Inicio
+    float n1, n2
+    leer n1
+    leer n2
+    imprimir ("El mayor de", n1 "y" n2, "es", n1 OR n2)
+Final

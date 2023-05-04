@@ -1,0 +1,17 @@
+funcion bisiesto (int año): bool
+    si (año%4==0)
+        si
+            (año%100==0 && año%400==!0) entonces
+        bisiesto = true
+    sino
+        bisiesto = false
+    retornar bisiesto
+
+int año,
+bool bisiesto,
+
+leer año
+    si (año==2000)
+        imrpimir "el año", año "no es bisiesto"
+    si (año==2020)
+        imrpimir "el año", año "es bisiesto"

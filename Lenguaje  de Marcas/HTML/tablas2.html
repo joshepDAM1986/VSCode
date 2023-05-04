@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas2</title>
+    <style>
+          table, th, td
+        {
+            border: 1px solid;
+            padding:7px;
+        }   
+        table
+        {
+            border-collapse: collapse;
+            margin-left:auto;
+            margin-right:auto;
+        } 
+      
+        th, td
+        {
+            border: 1px solid;
+            padding:7px;
+        }   
+        thead
+        {
+            background-color:rgba(102, 64, 134, 0.534)
+        }
+        tfoot
+        {
+            background-color:aqua
+        }
+        th
+        {
+            padding:7px;
+        }
+        td
+        {
+            text-align: left;
+        }
+    </style>
+</head>
+    <body>
+        <main>
+            <table>
+                <caption>
+                    Horas Trabajadas
+                </caption>
+                <colgroup span="6"></colgroup>
+                <colgroup style="background-color:tomato"></colgroup>
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th >Semanal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr">
+                        <td>30</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>8</td>
+                        <td rowspan="2">5</td>
+                        <td >36</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td>7</td>
+                        <td>9</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <!-- <td>5</td> -->
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td>8</td>
+                        <td colspan="4">Vacaciones</td>
+                        <td>8</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>16</td>
+                        <td>18</td>
+                        <td>10</td>
+                        <td>178</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </body>
+</html>

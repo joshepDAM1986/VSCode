@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="nombre">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                <xs:attribute name="dni" type="xs:string" use="required"/>
+                <xs:attribute name="fechaNac" type="xs:date" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
