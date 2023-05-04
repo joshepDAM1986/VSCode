@@ -5,10 +5,12 @@
                 <xs:element ref="nombre"/>
                 <xs:element ref="email"/>
                 <xs:element ref="fechaNac"/>
+                <xs:element ref="dni"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
     <xs:element name="nombre" type="xs:string"></xs:element>
     <xs:element name="email" type="xs:string"></xs:element>
     <xs:element name="fechaNac" type="xs:string"></xs:element>
+    <xs:element name="dni" type="xs:string"></xs:element>
 </xs:schema>

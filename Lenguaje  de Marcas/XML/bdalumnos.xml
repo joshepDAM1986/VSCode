@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bdalumnos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="_ejercicio_3_pag_195.xsd">
+    <alumno>
+       <nombre>José Antonio</nombre>
+       <padre>José Luis</padre>
+       <madre>Carmen</madre>
+       <edad>18</edad>
+       <ciudad>Malaga</ciudad>
+    </alumno>
+    <alumno>
+       <nombre>Francisco Jesús</nombre>
+       <padre>José</padre>
+       <madre>María</madre>
+       <edad>25</edad>
+       <ciudad>15</ciudad>
+    </alumno>
+ </bdalumnos>
