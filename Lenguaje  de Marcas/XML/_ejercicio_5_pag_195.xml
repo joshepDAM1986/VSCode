@@ -1,0 +1,17 @@
+<!DOCTYPE Moviles [
+<!ELEMENT Moviles (Movil+)>
+<!ELEMENT Movil (Modelo, precio, Fabricante, color)>
+<!ELEMENT Modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT Fabricante (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+]>
+
+<Moviles>
+    <Movil>
+        <Modelo>Samsung A51 S</Modelo>
+        <precio>450</precio>
+        <Fabricante>Samsung</Fabricante>
+        <color>Negro</color>
+    </Movil>
+</Moviles>

@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<vivero xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_examen_xml_10-02-2023_xsd.xsd">
+
+    <Planta Siembras="2021">
+        <nombre>Litchi</nombre>
+        <precio moneda="euro">21</precio>
+        <clase>Mauritius</clase>
+        <origen>Florida</origen>
+        <color_fruto>rojo</color_fruto>
+        <adicional>
+            <cosecha>agosto</cosecha>
+            <riego>diario</riego>
+        </adicional>
+    </Planta>
+
+    <Planta Siembras="2022">
+        <nombre>Litchi</nombre>
+        <precio moneda="euro">22</precio>
+        <clase>Kway May Pink</clase>
+        <origen>Yukarta</origen>
+        <color_fruto>rojo</color_fruto>
+        <color_fruto>fucsia</color_fruto>
+        <adicional>
+            <cosecha>agosto</cosecha>
+            <riego>diario</riego>
+        </adicional>
+    </Planta>
+
+    <Planta Siembras="2023">
+        <nombre>Longan</nombre>
+        <precio moneda="euro">23</precio>
+        <clase>Champoo</clase>
+        <origen>Shangai</origen>
+        <color_fruto>marrón</color_fruto>
+        <adicional>
+            <cosecha>octubre</cosecha>
+            <riego>diario</riego>
+        </adicional>
+    </Planta>
+</vivero>

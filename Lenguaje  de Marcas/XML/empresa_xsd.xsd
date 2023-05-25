@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Empresa" type="EmpresaType"/>
+  <xs:complexType name="nifType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="nacionalidad" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="personalType">
+    <xs:sequence>
+      <xs:element name="nombre">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Felipe"/>
+            <xs:enumeration value="Ana"/>
+            <xs:enumeration value="Carmen"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="apellidos">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pascual"/>
+            <xs:enumeration value="López"/>
+            <xs:enumeration value="Ruiz"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="nifType" name="nif"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="laboralType">
+    <xs:sequence>
+      <xs:element name="sueldo">
+        <xs:simpleType>
+          <xs:restriction base="xs:short">
+            <xs:enumeration value="1200"/>
+            <xs:enumeration value="1500"/>
+            <xs:enumeration value="1400"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="irpf">
+        <xs:simpleType>
+          <xs:restriction base="xs:byte">
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="dep" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="EmpleadoType">
+    <xs:sequence>
+      <xs:element type="personalType" name="personal"/>
+      <xs:element type="laboralType" name="laboral"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EmpresaType">
+    <xs:sequence>
+      <xs:element type="EmpleadoType" name="Empleado" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

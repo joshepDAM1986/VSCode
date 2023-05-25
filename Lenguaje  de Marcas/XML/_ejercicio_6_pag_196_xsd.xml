@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gimnasio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_ejercicio_6_pag_196.xsd">
+    <Miembro>
+        <Persona Genero="Femenino" ID="001"></Persona>
+        <Nombre-Apellidos>Segundo Pascual</Nombre-Apellidos>
+        <Telefono>6XXXXXXXX</Telefono>
+        <Telefono>95XXXXXXX</Telefono>
+        <email>User1@gmail.com</email>
+        <email>User2@gmail.com</email>
+        <email>User3@gmail.com</email>
+        <socio>Si</socio>
+    </Miembro>
+    <Miembro>
+        <Persona Genero="Masculino" ID="002"></Persona>
+        <Nombre-Apellidos>Obdulia Toledo</Nombre-Apellidos>
+        <Telefono></Telefono>
+        <email>Carmen@Uma.es</email>
+        <socio>No</socio>
+    </Miembro>
+</Gimnasio>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Gimnasio">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" ref="Miembro" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Miembro">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Persona">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="Genero" type="gen" use="required"/>
+                            <xs:attribute name="ID" type="id" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="Nombre-Apellidos" type="xs:string"/>
+            <xs:element minOccurs="1" maxOccurs="unbounded" name="Telefono" type="xs:string"/>
+            <xs:element maxOccurs="unbounded" name="email" type="xs:string"/>
+            <xs:element name="socio" type="tsocio"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:simpleType name="gen">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Masculino"></xs:enumeration>
+        <xs:enumeration value="Femenino"></xs:enumeration>
+        <xs:enumeration value="No Contesta"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="id">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="[a-zA-Z0-9]*"/>
+        <xs:length value="3"/>
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="tsocio">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Si"></xs:enumeration>
+        <xs:enumeration value="No"></xs:enumeration>
+    </xs:restriction>
+</xs:simpleType>
+</xs:schema>

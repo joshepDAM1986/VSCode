@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Empresa">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Empleado"></xs:element>
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Empleado">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element ref="personal"></xs:element>
+        <xs:element ref="laboral"></xs:element>
+    </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="personal">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="apellidos" type="xs:string"></xs:element>
+            <xs:element name="nif" type="tipoNacionalidad"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+<xs:element name="laboral">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="sueldo" type="xs:string"></xs:element>
+            <xs:element name="irpf" type="tipoIRPF"></xs:element>
+        </xs:all> 
+        <xs:attribute name = 'dep' type = 'tipoDep'/>
+   </xs:complexType>
+</xs:element>
+<xs:complexType name="tipoNacionalidad">
+    <xs:simpleContent>
+        <xs:extension base="xs:string">
+            <xs:attribute name="nacionalidad" type="xs:string" use="required"/>
+        </xs:extension>
+    </xs:simpleContent>
+</xs:complexType>
+<xs:simpleType name="tipoDep">
+    <xs:restriction base="xs:string">
+        <xs:pattern value="ADM|IT" />
+    </xs:restriction>
+</xs:simpleType>
+<xs:simpleType name="tipoIRPF">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="20" />
+        </xs:restriction>
+</xs:simpleType>
+</xs:schema>
