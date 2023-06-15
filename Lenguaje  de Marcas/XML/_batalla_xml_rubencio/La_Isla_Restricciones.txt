@@ -1,0 +1,47 @@
+El siguiente documento XSD enumera las restricciones que deben seguirse para el esquema definido:
+
+1. Elemento 'carta':
+   - Debe contener un conjunto de elementos 'producto'.
+   - No tiene restricciones específicas.
+
+2. Elemento 'producto':
+   - Debe contener una secuencia de elementos 'nombre', 'descripcion', 'categoria', 'precio' y 'fecha'.
+   - Debe tener un atributo obligatorio llamado 'id'.
+
+3. Restricciones del elemento 'producto':
+   - El atributo 'id' debe seguir las restricciones definidas en el tipo 'idType':
+     - Debe ser un número entero.
+     - Debe ser mayor que 1 y menor que 100.
+     - Debe tener exactamente 2 dígitos.
+
+4. Restricciones del tipo 'nombreType':
+   - Debe ser una cadena de caracteres.
+   - La longitud mínima es 1 y la longitud máxima es 100.
+   - Los espacios en blanco iniciales y finales se colapsan en un solo espacio.
+   - Debe comenzar con una letra mayúscula o minúscula y puede contener letras y espacios en blanco.
+
+5. Restricciones del tipo 'descripcionType':
+   - Debe ser una cadena de caracteres.
+   - La longitud máxima es 50.
+   - Puede contener letras, dígitos y espacios en blanco.
+
+6. Restricciones del tipo 'categoriaType':
+   - Debe ser una cadena de caracteres.
+   - La longitud mínima es 1.
+   - Solo se permiten dos valores: "Pastelería" o "Cafetería".
+
+7. Restricciones del tipo 'precioType':
+   - Debe ser un número decimal.
+   - El formato del número debe tener dos decimales.
+   - El valor mínimo permitido es 0.01 y el valor máximo permitido es 1000.00.
+
+8. Restricciones del tipo 'fechaType':
+   - Debe ser una fecha válida en formato ISO.
+
+9. Restricciones adicionales:
+   - Debe haber al menos dos categorías distintas en los productos.
+   - Se define una restricción de clave única llamada 'uniqueId' en el elemento 'carta', lo que garantiza que los valores del atributo 'id' de los elementos 'producto' sean únicos.
+   - Se define una restricción de clave llamada 'oddIdKey' en el elemento 'carta', que asegura que los elementos 'producto' con 'id' impar tengan valores de 'id' únicos entre sí.
+   - Se define una restricción de clave de referencia llamada 'oddIdRef' en el elemento 'carta', que hace referencia a la restricción 'oddIdKey' y asegura que los elementos 'producto' con 'categoria' igual a 'Pastelería' tengan valores de 'id' válidos.
+   - Se define una restricción de clave llamada 'evenIdKey' en el elemento 'carta', que asegura que los elementos 'producto' con 'id' par tengan valores de 'id' únicos entre sí.
+   - Se define una restricción de clave de referencia llamada 'evenIdRef' en el elemento 'carta', que hace referencia a la restricción 'evenIdKey' y asegura que los elementos 'producto' con 'categoria' igual a 'Cafetería' tengan valores de 'id' válidos.

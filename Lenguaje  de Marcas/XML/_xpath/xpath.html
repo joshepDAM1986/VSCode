@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="listado"></p>
+    <script>
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+
+
+
+            if (this.readyState == 4 && this.status == 200) {
+                recuperaDatos(xhttp.responseXML);
+            }
+
+        };
+
+        xhttp.open("GET", "coches2.xml", true);
+
+        xhttp.send();
+
+        function recuperaDatos(xml) {
+
+            var datos = ""
+            path = "/concesionario/coche/marca";
+            if (xml.evaluate) {
+                var nodos = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+
+                var resultado = nodos.iterateNext();
+
+                while (resultado) {
+
+                    datos = datos + "marca: " + resultado.childNodes[0].nodeValue + "<br>";
+                    resultado = nodos.iterateNext();
+                }
+            }
+            document.getElementById("listado").innerHTML = datos;
+        }
+    </script>
+</body>
+
+</html>

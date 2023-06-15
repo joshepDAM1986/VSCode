@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<vivero>
+    <especie siembra="2018">
+        <nombre>Litchi</nombre>
+        <precio moneda="euro">25</precio>
+        <variedad>Kway May Pink</variedad>
+        <origen>Filipinas</origen>
+        <color_fruto>rojo</color_fruto>
+        <color_fruto>rosa</color_fruto>
+        <otros_datos>
+            <maduracion>agosto</maduracion>
+            <riego> diario</riego>
+        </otros_datos>
+    </especie>
+    <especie siembra="2017">
+        <nombre>Longan</nombre>
+        <precio moneda="euro">10</precio>
+        <variedad>Champoo</variedad>
+        <origen> China</origen>
+        <color_fruto>marrón</color_fruto>
+        <otros_datos>
+            <maduracion>octubre</maduracion>
+            <riego>diario</riego>
+        </otros_datos>
+    </especie>
+    <especie siembra="2016">
+        <nombre>Litchi</nombre>
+        <precio moneda="euro">21</precio>
+        <variedad>mauritius</variedad>
+        <origen>Florida</origen>
+        <color_fruto>rojo</color_fruto>
+        <otros_datos>
+            <maduracion>agosto</maduracion>
+            <riego>diario</riego>
+        </otros_datos>
+    </especie>
+    </vivero>

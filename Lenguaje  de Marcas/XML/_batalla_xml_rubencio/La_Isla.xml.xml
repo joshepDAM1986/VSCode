@@ -1,0 +1,72 @@
+<carta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="productos.xsd">
+    <producto id="02">
+        <nombre>Café Mocha</nombre>
+        <descripcion>Café con leche, chocolate y un toque de canela</descripcion>
+        <categoria>Cafetería</categoria>
+        <precio>4.50</precio>
+        <fecha>23-06-15</fecha>
+    </producto>
+    <producto id="04">
+        <nombre>Café Helado</nombre>
+        <descripcion>Café frío con hielo y crema batida</descripcion>
+        <categoria>Cafetería</categoria>
+        <precio>3.75</precio>
+        <fecha>23-03-10</fecha>
+    </producto>
+    <producto id="06">
+        <nombre>Capuchino Caramelo</nombre>
+        <descripcion>Capuchino con un toque de caramelo y crema</descripcion>
+        <categoria>Cafetería</categoria>
+        <precio>5.99</precio>
+        <fecha>23-05-18</fecha>
+    </producto>
+    <producto id="08">
+        <nombre>Frappé de Vainilla</nombre>
+        <descripcion>Bebida fría de café con sabor a vainilla y nata montada</descripcion>
+        <categoria>Cafetería</categoria>
+        <precio>6.50</precio>
+        <fecha>23-07-21</fecha>
+    </producto>
+    <producto id="10">
+        <nombre>Café Espresso</nombre>
+        <descripcion>Intenso café espresso servido en una taza pequeña</descripcion>
+        <categoria>Cafetería</categoria>
+        <precio>2.99</precio>
+        <fecha>23-09-17</fecha>
+    </producto>
+    <producto id="01">
+        <nombre>Tarta de Manzana</nombre>
+        <descripcion>Deliciosa tarta de manzana casera</descripcion>
+        <categoria>Pastelería</categoria>
+        <precio>9.99</precio>
+        <fecha>23-01-01</fecha>
+    </producto>
+    <producto id="03">
+        <nombre>Croissant de Almendra</nombre>
+        <descripcion>Delicioso croissant relleno de almendra y glaseado</descripcion>
+        <categoria>Pastelería</categoria>
+        <precio>7.99</precio>
+        <fecha>23-02-22</fecha>
+    </producto>
+    <producto id="05">
+        <nombre>Tarta de Fresa</nombre>
+        <descripcion>Exquisita tarta de fresa con crema y base de galleta</descripcion>
+        <categoria>Pastelería</categoria>
+        <precio>11.99</precio>
+        <fecha>23-04-04</fecha>
+    </producto>
+    <producto id="07">
+        <nombre>Pastel de Chocolate</nombre>
+        <descripcion>Irresistible pastel de chocolate con cobertura de ganache</descripcion>
+        <categoria>Pastelería</categoria>
+        <precio>8.99</precio>
+        <fecha>23-06-03</fecha>
+    </producto>
+    <producto id="09">
+        <nombre>Tarta de Zanahoria</nombre>
+        <descripcion>Deliciosa tarta de zanahoria con glaseado de queso crema</descripcion>
+        <categoria>Pastelería</categoria>
+        <precio>10.99</precio>
+        <fecha>23-08-09</fecha>
+    </producto>
+</carta>

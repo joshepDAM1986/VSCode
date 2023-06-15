@@ -1,0 +1,290 @@
+<paises>
+  <pais>
+    <nombre>Estados Unidos</nombre>
+    <continente>América</continente>
+    <habitantes>331449281</habitantes>
+    <natalidad>11.4</natalidad>
+    <mortalidad>8.8</mortalidad>
+    <esperanza_vida>78.8</esperanza_vida>
+    <economia>22.675</economia>
+    <moneda>Dólar estadounidense (USD)</moneda>
+    <idioma>Inglés</idioma>
+    <capital>Washington D.C.</capital>
+  </pais>
+  <pais>
+    <nombre>China</nombre>
+    <continente>Asia</continente>
+    <habitantes>1444216107</habitantes>
+    <natalidad>12.1</natalidad>
+    <mortalidad>7.8</mortalidad>
+    <esperanza_vida>76.7</esperanza_vida>
+    <economia>16.64</economia>
+    <moneda>Renminbi (CNY)</moneda>
+    <idioma>Chino</idioma>
+    <capital>Pekín</capital>
+  </pais>
+  <pais>
+    <nombre>India</nombre>
+    <continente>Asia</continente>
+    <habitantes>1393409038</habitantes>
+    <natalidad>18.2</natalidad>
+    <mortalidad>6.3</mortalidad>
+    <esperanza_vida>69.4</esperanza_vida>
+    <economia>3.05</economia>
+    <moneda>Rupia india (INR)</moneda>
+    <idioma>Hindi, Inglés</idioma>
+    <capital>Nueva Delhi</capital>
+  </pais>
+  <pais>
+    <nombre>Brasil</nombre>
+    <continente>América</continente>
+    <habitantes>213993437</habitantes>
+    <natalidad>12.5</natalidad>
+    <mortalidad>6.1</mortalidad>
+    <esperanza_vida>75.7</esperanza_vida>
+    <economia>1.449</economia>
+    <moneda>Real brasileño (BRL)</moneda>
+    <idioma>Portugués</idioma>
+    <capital>Brasilia</capital>
+  </pais>
+  <pais>
+    <nombre>Rusia</nombre>
+    <continente>Europa y Asia</continente>
+    <habitantes>145912025</habitantes>
+    <natalidad>10.1</natalidad>
+    <mortalidad>13.4</mortalidad>
+    <esperanza_vida>72.6</esperanza_vida>
+    <economia>1.464</economia>
+    <moneda>Rublo ruso (RUB)</moneda>
+    <idioma>Ruso</idioma>
+    <capital>Moscú</capital>
+  </pais>
+  <pais>
+    <nombre>Indonesia</nombre>
+    <continente>Asia</continente>
+    <habitantes>273523615</habitantes>
+    <natalidad>14.6</natalidad>
+    <mortalidad>7.7</mortalidad>
+    <esperanza_vida>71.7</esperanza_vida>
+    <economia>1.121</economia>
+    <moneda>Rupia indonesia (IDR)</moneda>
+    <idioma>Indonesio</idioma>
+    <capital>Jakarta</capital>
+  </pais>
+  <pais>
+    <nombre>Pakistán</nombre>
+    <continente>Asia</continente>
+    <habitantes>225199937</habitantes>
+    <natalidad>24.6</natalidad>
+    <mortalidad>6.6</mortalidad>
+    <esperanza_vida>67.3</esperanza_vida>
+    <economia>0.372</economia>
+    <moneda>Rupia pakistaní (PKR)</moneda>
+    <idioma>Urdu, Inglés</idioma>
+    <capital>Islamabad</capital>
+  </pais>
+  <pais>
+    <nombre>Nigeria</nombre>
+    <continente>África</continente>
+    <habitantes>211400708</habitantes>
+    <natalidad>36.6</natalidad>
+    <mortalidad>8.1</mortalidad>
+    <esperanza_vida>55.2</esperanza_vida>
+    <economia>0.514</economia>
+    <moneda>Naira (NGN)</moneda>
+    <idioma>Inglés</idioma>
+    <capital>Abuja</capital>
+  </pais>
+  <pais>
+    <nombre>Bangladesh</nombre>
+    <continente>Asia</continente>
+    <habitantes>166303498</habitantes>
+    <natalidad>17.9</natalidad>
+    <mortalidad>5.6</mortalidad>
+    <esperanza_vida>73.2</esperanza_vida>
+    <economia>0.384</economia>
+    <moneda>Taka (BDT)</moneda>
+    <idioma>Bengalí</idioma>
+    <capital>Daca</capital>
+  </pais>
+  <pais>
+    <nombre>México</nombre>
+    <continente>América</continente>
+    <habitantes>130262216</habitantes>
+    <natalidad>16.3</natalidad>
+    <mortalidad>5.3</mortalidad>
+    <esperanza_vida>76.7</esperanza_vida>
+    <economia>1.294</economia>
+    <moneda>Peso mexicano (MXN)</moneda>
+    <idioma>Español</idioma>
+    <capital>Ciudad de México</capital>
+  </pais>
+  <pais>
+    <nombre>Japón</nombre>
+    <continente>Asia</continente>
+    <habitantes>126476461</habitantes>
+    <natalidad>7.9</natalidad>
+    <mortalidad>11.3</mortalidad>
+    <esperanza_vida>84.7</esperanza_vida>
+    <economia>5.151</economia>
+    <moneda>Yen japonés (JPY)</moneda>
+    <idioma>Japonés</idioma>
+    <capital>Tokio</capital>
+  </pais>
+  <pais>
+    <nombre>Etiopía</nombre>
+    <continente>África</continente>
+    <habitantes>117876227</habitantes>
+    <natalidad>32.2</natalidad>
+    <mortalidad>6.2</mortalidad>
+    <esperanza_vida>66.6</esperanza_vida>
+    <economia>0.272</economia>
+    <moneda>Birr etíope (ETB)</moneda>
+    <idioma>Amárico</idioma>
+    <capital>Addis Abeba</capital>
+  </pais>
+  <pais>
+    <nombre>Egipto</nombre>
+    <continente>África</continente>
+    <habitantes>104258327</habitantes>
+    <natalidad>23.6</natalidad>
+    <mortalidad>4.7</mortalidad>
+    <esperanza_vida>72.7</esperanza_vida>
+    <economia>1.394</economia>
+    <moneda>Libra egipcia (EGP)</moneda>
+    <idioma>Árabe</idioma>
+    <capital>El Cairo</capital>
+  </pais>
+  <pais>
+    <nombre>Reino Unido</nombre>
+    <continente>Europa</continente>
+    <habitantes>67886004</habitantes>
+    <natalidad>11.6</natalidad>
+    <mortalidad>9.3</mortalidad>
+    <esperanza_vida>81.2</esperanza_vida>
+    <economia>2.743</economia>
+    <moneda>Libra esterlina (GBP)</moneda>
+    <idioma>Inglés</idioma>
+    <capital>Londres</capital>
+  </pais>
+  <pais>
+    <nombre>Philippines</nombre>
+    <continente>Asia</continente>
+    <habitantes>109581078</habitantes>
+    <natalidad>23.9</natalidad>
+    <mortalidad>5.8</mortalidad>
+    <esperanza_vida>71.6</esperanza_vida>
+    <economia>0.414</economia>
+    <moneda>Peso filipino (PHP)</moneda>
+    <idioma>Filipino, Inglés</idioma>
+    <capital>Manila</capital>
+  </pais>
+  <pais>
+    <nombre>Alemania</nombre>
+    <continente>Europa</continente>
+    <habitantes>83240525</habitantes>
+    <natalidad>8.2</natalidad>
+    <mortalidad>11.5</mortalidad>
+    <esperanza_vida>80.9</esperanza_vida>
+    <economia>4.322</economia>
+    <moneda>Euro (EUR)</moneda>
+    <idioma>Alemán</idioma>
+    <capital>Berlín</capital>
+  </pais>
+  <pais>
+    <nombre>República Democrática del Congo</nombre>
+    <continente>África</continente>
+    <habitantes>89561404</habitantes>
+    <natalidad>34.1</natalidad>
+    <mortalidad>9.1</mortalidad>
+    <esperanza_vida>61.9</esperanza_vida>
+    <economia>0.049</economia>
+    <moneda>Franco congoleño (CDF)</moneda>
+    <idioma>Francés, Lingala, Suahili</idioma>
+    <capital>Kinshasa</capital>
+  </pais>
+  <pais>
+    <nombre>Francia</nombre>
+    <continente>Europa</continente>
+    <habitantes>65480710</habitantes>
+    <natalidad>11.3</natalidad>
+    <mortalidad>9.1</mortalidad>
+    <esperanza_vida>82.7</esperanza_vida>
+    <economia>2.707</economia>
+    <moneda>Euro (EUR)</moneda>
+    <idioma>Francés</idioma>
+    <capital>París</capital>
+  </pais>
+  <pais>
+    <nombre>Tanzania</nombre>
+    <continente>África</continente>
+    <habitantes>64709946</habitantes>
+    <natalidad>34.7</natalidad>
+    <mortalidad>6.7</mortalidad>
+    <esperanza_vida>65.5</esperanza_vida>
+    <economia>0.625</economia>
+    <moneda>Chelín tanzano (TZS)</moneda>
+    <idioma>Swahili, Inglés</idioma>
+    <capital>Dodoma</capital>
+  </pais>
+  <pais>
+    <nombre>Sudáfrica</nombre>
+    <continente>África</continente>
+    <habitantes>60041993</habitantes>
+    <natalidad>19.7</natalidad>
+    <mortalidad>9.3</mortalidad>
+    <esperanza_vida>64.6</esperanza_vida>
+    <economia>0.709</economia>
+    <moneda>Rand sudafricano (ZAR)</moneda>
+    <idioma>Afrikáans, Inglés, Zulú</idioma>
+    <capital>Pretoria, Ciudad del Cabo, Bloemfontein</capital>
+  </pais>
+  <pais>
+    <nombre>Italia</nombre>
+    <continente>Europa</continente>
+    <habitantes>59918314</habitantes>
+    <natalidad>7.7</natalidad>
+    <mortalidad>10.5</mortalidad>
+    <esperanza_vida>83.8</esperanza_vida>
+    <economia>2.071</economia>
+    <moneda>Euro (EUR)</moneda>
+    <idioma>Italiano</idioma>
+    <capital>Roma</capital>
+  </pais>
+  <pais>
+    <nombre>Kenia</nombre>
+    <continente>África</continente>
+    <habitantes>58130922</habitantes>
+    <natalidad>26.2</natalidad>
+    <mortalidad>5.1</mortalidad>
+    <esperanza_vida>66.3</esperanza_vida>
+    <economia>0.956</economia>
+    <moneda>Chelín keniano (KES)</moneda>
+    <idioma>Swahili, Inglés</idioma>
+    <capital>Nairobi</capital>
+  </pais>
+  <pais>
+    <nombre>Argentina</nombre>
+    <continente>América</continente>
+    <habitantes>45267449</habitantes>
+    <natalidad>16.4</natalidad>
+    <mortalidad>7.7</mortalidad>
+    <esperanza_vida>76.2</esperanza_vida>
+    <economia>0.520</economia>
+    <moneda>Peso argentino (ARS)</moneda>
+    <idioma>Español</idioma>
+    <capital>Buenos Aires</capital>
+  </pais>
+  <pais>
+    <nombre>Canadá</nombre>
+    <continente>América</continente>
+    <habitantes>37742154</habitantes>
+    <natalidad>10.9</natalidad>
+    <mortalidad>7.5</mortalidad>
+    <esperanza_vida>82.3</esperanza_vida>
+    <economia>1.949</economia>
+    <moneda>Dólar canadiense (CAD)</moneda>
+    <idioma>Inglés, Francés</idioma>
+    <capital>Ottawa</capital>
+  </pais>
+</paises>
