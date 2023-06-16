@@ -9,14 +9,13 @@ El tipo complejo productoType define una secuencia de elementos en el siguiente 
 <fecha> de tipo fechaType
 <stock> de tipo stockType
 <alergenos> de tipo alergenosType
-El atributo id de tipo idType es requerido para el elemento <producto>.
 El tipo simple nombreType restringe el contenido a caracteres alfabéticos, dígitos y espacios.
 El tipo simple descripcionType restringe el contenido a caracteres alfabéticos, dígitos y espacios, con una longitud máxima de 50 caracteres.
 El tipo simple categoriaType restringe el contenido a las enumeraciones "Pastelería" o "Cafetería".
-El tipo simple precioType restringe el contenido a valores decimales en el rango de 0.01 a 250.00, con 2 dígitos decimales.
+El tipo simple precioType restringe el contenido a valores decimales en el rango de 0.01 a 250.00, con 1 u 2 dígitos decimales.
 El tipo simple fechaType restringe el contenido a fechas en formato "yyyy-mm-dd" en el rango de 2000 a 2023.
-El tipo simple stockType restringe el contenido a valores enteros en el rango de 0 a 200.
+El tipo simple stockType restringe el contenido a valores enteros en el rango de 0 a 200, no admite numeros negativos.
 El tipo simple alergenosEnumType restringe el contenido a las enumeraciones de alérgenos especificados.
-El tipo simple alergenosType es una lista de elementos de tipo alergenosEnumType.
+El tipo simple alergenosType es una lista de elementos de tipo alergenosEnumType, no admite un elemento que no esté en el enum, pero si puede repetirse.
+(no se puede arreglar con xsd parece).
 El tipo simple idType restringe el contenido a valores enteros en el rango de 0 a 100, con una longitud de 2 dígitos.
-Además, se define una restricción única en el elemento <productos> para asegurar que los valores del atributo id en los elementos <producto> sean únicos.
