@@ -1,0 +1,36 @@
+Para el elemento <nombre>:
+
+Debe ser una cadena de texto que no contenga dígitos.
+Debe tener una longitud mínima de 3 caracteres.
+Debe tener una longitud máxima de 50 caracteres.
+Para el elemento <categoria>:
+
+Debe ser una cadena de texto que tome uno de los siguientes valores: "Entrada", "Plato principal" o "Postre".
+Para el elemento <precio>:
+
+Debe ser un número decimal.
+Debe tener un valor mínimo de 0.00.
+Debe tener un valor máximo de 1000.00.
+Debe seguir el patrón de un número con dos decimales (por ejemplo, 9.99).
+Para el elemento <ingredientes>:
+
+Debe ser una cadena de texto que no contenga dígitos.
+Debe tener una longitud mínima de 5 caracteres.
+Debe tener una longitud máxima de 200 caracteres.
+Para el elemento <tiempoPreparacion>:
+
+Debe ser un número entero positivo.
+Debe tener un valor máximo de 120.
+Para el elemento <fechaCreacion>:
+
+Debe ser una cadena de texto que siga el formato de fecha YYYY-MM-DD (por ejemplo, 2022-05-15).
+Para el elemento <descripcion>:
+
+Debe ser una cadena de texto que no contenga dígitos.
+Debe tener una longitud mínima de 10 caracteres.
+Debe tener una longitud máxima de 200 caracteres.
+Para el elemento <cantidadDisponible>:
+
+Debe ser un número entero.
+Debe tener un valor mínimo de 0.
+Debe tener un valor máximo de 100.
